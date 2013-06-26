@@ -14,8 +14,6 @@
 
 package com.commonsware.android.actionmodemc;
 
-import android.annotation.TargetApi;
-import android.os.Build;
 import android.view.ActionMode;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -23,7 +21,6 @@ import android.view.MenuItem;
 import android.widget.AbsListView;
 import android.widget.ListView;
 
-@TargetApi(Build.VERSION_CODES.HONEYCOMB)
 public class HCMultiChoiceModeListener implements AbsListView.MultiChoiceModeListener {
   ActionModeDemo host;
   ActionMode activeMode;
